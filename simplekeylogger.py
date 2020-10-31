@@ -44,6 +44,8 @@ def log_file():
             letter = '⌫ '
         if letter == 'Key.tab':
             letter = '↹ '
+        if letter == 'Key.print_screen':
+            letter = '⎙ '
         if letter == '\\x01':  # ctrl + a
             letter = '-Selected All '
         if letter == '\\x1a':  # ctrl + z
