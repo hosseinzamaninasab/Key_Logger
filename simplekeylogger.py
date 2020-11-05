@@ -36,6 +36,12 @@ def log_file():
             letter = 'home '
         if letter == 'Key.end':
             letter = 'end '
+        if letter == 'Key.page_down':
+            letter = 'pgdn '
+        if letter == 'Key.page_up':
+            letter = 'pgup '
+        if letter == 'Key.num_lock':
+            letter = 'numlk|scrlk '
         if letter == 'Key.esc':
             letter = '␛ '
         if letter == 'Key.enter':
